@@ -14,8 +14,8 @@ The Entity-Relationship (ER) diagram showcases the database design, highlighting
 ### 2. Database Design and Forward Engineering (LittleLemonDB.sql)
 Designed and implemented in MySQL, the database consists of tables for:
 - Menu items and menus
-- Bookings and orders
-- Employees and roles  
+- Bookings, orders and OrderDeliveryStatus
+- CustomerDetails and Staff  
 
 **Forward Engineering Feature**: The MySQL Workbench Forward Engineering feature was used to generate the database schema file.  
 
@@ -45,19 +45,19 @@ A system to manage table bookings, ensuring efficient allocation and handling ca
 Using Tableau, insightful visualizations were created to analyze sales and profit trends. This section includes five key charts and a dashboard:
 
 **Charts**:
-** 1. Customer Sales ** 
+**1. Customer Sales** 
 ![Customer Sales](Little%20Lemon%20Booking%20System/01-Customer%20Sales.png)
 
-** 2. Profit Sales ** 
-![Profit Sales](Little%20Lemon%20Booking%20System/02-Profit%20Sales.png)  
+**2. Profit Sales** 
+![Profit Sales](Little%20Lemon%20Booking%20System/02-Profit%20Chart.png)  
 
-** 3. Sales Bubble Chart **
+**3. Sales Bubble Chart**
 ![Sales Bubble Chart](Little%20Lemon%20Booking%20System/03-Sales%20Bubble%20Chart.png)  
 
-** 4. Cuisine Sales and Profit **
+**4. Cuisine Sales and Profit**
 ![Cuisine Sales and Profit](Little%20Lemon%20Booking%20System/04-Cuisine%20Sales%20and%20Profits.png)  
 
-** 5. Customer Sales and Profit Dashboard ** 
+**5. Customer Sales and Profit Dashboard** 
 ![Customer Sales and Profit Dashboard](Little%20Lemon%20Booking%20System/05-Customer%20Sales%20Dashboard.png)
 
 ### 6. Database Modeling (LittleLemon.ipynb)
