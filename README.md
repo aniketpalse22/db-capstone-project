@@ -55,8 +55,25 @@ Using Tableau, insightful visualizations were created to analyze sales and profi
 ![Sales Bubble Chart](Little%20Lemon%20Booking%20System/03-Sales%20Bubble%20Chart.png)  
 
 ** 4. Cuisine Sales and Profit **
-![Cuisine Sales and Profit](Little%20Lemon%20Booking%20System/04-Cuisine%20Sales%20and%20Profit.png)  
+![Cuisine Sales and Profit](Little%20Lemon%20Booking%20System/04-Cuisine%20Sales%20and%20Profits.png)  
 
 ** 5. Customer Sales and Profit Dashboard ** 
-![Customer Sales and Profit Dashboard](Little%20Lemon%20Booking%20System/05-Customer%20Sales%20and%20Profit%20Dashboard.png)
+![Customer Sales and Profit Dashboard](Little%20Lemon%20Booking%20System/05-Customer%20Sales%20Dashboard.png)
 
+### 6. Database Modeling (LittleLemon.ipynb)
+A detailed walkthrough of the database design process, including schema design and relationship modeling, implemented in Python using Jupyter Notebook.  
+
+## Tools and Technologies  
+- **Database**: MySQL (with MySQL Workbench)  
+- **Visualization**: Tableau  
+- **Version Control**: Git  
+- **Programming Language**: Python for data analytics and integration  
+
+## Instructions for Use
+1. Import the little_lemon_db schema using the provided file (`littlelemondb.sql`) into your MySQL Workbench.
+2. Use the provided SQL scripts (`SalesReportQuery.sql` and `TablesBookingSystem.sql`) for sales reporting and table booking operations.
+3. View Tableau visualizations (`Sales_Profit_Dashboard.twb`) for sales and profit insights.
+4. Explore the database modeling process using the provided Jupyter Notebook (`LittleLemonDC.ipynb`).
+
+## Acknowledgments
+This project is a part of the Meta Database Engineer Professional Certificate and demonstrates key concepts in database design, management, and visualization.
